@@ -1,21 +1,37 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
+import { Container, /*Row, Col*/ } from "react-bootstrap";
+// import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+// import leaf from "../../Assets/Projects/leaf.png";
+// import emotion from "../../Assets/Projects/emotion.jpeg";
+// import editor from "../../Assets/Projects/codeEditor.png";
+// import chatify from "../../Assets/Projects/chatify.png";
+// import suicide from "../../Assets/Projects/suicide.png";
+// import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h1 className="project-heading">
+         <h1 className="project-heading">
+          Section <strong className="purple">Under Development </strong>
+        </h1>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        {/* <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
@@ -82,7 +98,7 @@ function Projects() {
               link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
             />
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );
